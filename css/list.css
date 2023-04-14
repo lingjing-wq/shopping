@@ -1,0 +1,136 @@
+.nav {
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    top: 42px;
+    left: 185px;
+    padding: 0 13px;
+    border-left: 1px solid #c81623;
+}
+
+.sk_list {
+    float: left;
+
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.sk_con {
+    float: right;
+}
+
+.sk_con ul {
+    margin-right: 80px;
+}
+
+.sk_con ul li {
+    float: left;
+
+}
+
+.sk_con ul li {
+    display: block;
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.sk_con ul li:last-child {
+    position: relative;
+}
+
+.sk_con ul li:last-child::after {
+    position: absolute;
+    top: 1px;
+    right: 3px;
+    content: '\e91e';
+    font-family: 'icomoon';
+    color: #7d7d7d;
+}
+
+.sk_hd {
+    height: 120px;
+    margin-bottom: 25px;
+}
+
+.container {
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+.sk_bd ul {
+    width: 1225px;
+}
+
+.sk_bd ul li {
+    float: left;
+    margin-right: 15px;
+}
+
+.box {
+    width: 290px;
+    height: 460px;
+}
+
+.box img {
+    width: 100%;
+}
+
+.box h5 {
+    padding: 8px;
+}
+
+.box p em {
+    color: #b1191a;
+    font-size: 18px;
+    font-style: normal;
+    padding: 8px;
+    font-weight: 700;
+
+}
+
+.sale {
+    padding: 8px;
+}
+
+.bar {
+    display: inline-block;
+    width: 130px;
+    height: 10px;
+    border: 1px solid #b1191a;
+    border-radius: 5px;
+    padding: 0 1px;
+}
+
+.bar .bar_in {
+    height: 100%;
+    width: 87%;
+    background-color: #b1191a;
+}
+
+.sale span {
+    color: #b1191a;
+}
+
+.buy {
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    background-color: #b1191a;
+}
